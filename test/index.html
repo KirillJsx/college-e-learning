@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Server Monitor</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Список серверов</h1>
+        <input type="text" id="search" placeholder="Поиск по IP или порту...">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Local Address</th>
+                        <th>Remote Address</th>
+                        <th>State</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="conn-body">
+                    <!-- Сюда будем рендерить -->
+                </tbody>
+
+        <script src="app.js"></script>
+    </body>
+</html>
